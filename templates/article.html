@@ -1,0 +1,5 @@
+{% extends 'layout.html'%} 
+{% block body %}
+<h1>{{id}} : {{articles[id-1].body}}</h1>
+<h1>{{articles[id-1].create_date}} - {{articles[id-1].author}}</h1>
+{% endblock %} 
